@@ -8,21 +8,23 @@
 </head>
 <body class="bg-black">
     <!-- Navbar -->
-    <header>
-        <div class="flex flex-row justify-center h-16  mx-auto text-white py-4 gap-16">
-            <button>About Me</button>
-            <button>Education</button>
-            <button>Experience</button>
-            <button>Projects</button>
+    <header class="fixed top-0 left-96 right-0 z-50">
+        <div class="flex flex-row justify-center h-16 mx-auto text-white py-4 gap-16">
+            <a href="#aboutme">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#project">Projects</a>
         </div>
     </header>
+    
     <!-- End Navbar -->
     <div class="px-20 my-40 ml-80">
         <!-- Perkenalan -->
+        <a name="aboutme"></a>
         <img src="/img/pepe.jpg" alt=""
-        class="w-20 rounded-full ">
-        <div class="flex gap-4">
-        <h1 class="font-semibold text-5xl text-white ">Hey, I am Dafa</h1>
+        class="w-20 rounded-full">
+        <div class="flex gap-4 py-2">
+        <h1 class="font-semibold text-5xl text-white">Hey, I am Dafa</h1>
         <p class="my-4 border border-blue-300 bg-blue-300 rounded-lg text-black text-sm w-13 px-2">Open to Work</p>
         </div>
         <div class="flex gap-1">
@@ -33,7 +35,7 @@
           
         </div>
         <div class="flex gap-4 py-4">
-              <a href="" class="flex flex-col sm:flex-row border rounded-full bg-gray-800 p-1 w-32 px-4 gap-1 items-center">
+              <a href="" class="flex flex-col sm:flex-row border border-b-lg rounded-full bg-gray-800 p-1 w-32 px-4 gap-1 items-center">
                 <img src="/img/linkedin.png" alt="" class="w-6">  
               <p class="text-white">Linkedin</p>
               </a>
@@ -54,28 +56,28 @@
         <!-- End Perkenalan -->
 
         <!-- Education -->
-        <div class="mt-80">
-            <div class="flex my-12 mr-20">
+        <div class="mt-[22rem]">
+            <div class="flex my-6 mr-20 left-1/2 transform -translate-x-[30px] -translate-y-1/2 ">
             <img src="/img/sarjana.png" alt="" class="w-8 ">
-            <h1 class="text-white text-bold text-3xl">Education</h1>
+            <h1 class="text-white text-bold text-3xl px-2"><a name="education">Education</a></h1>
             </div>
         </div>
-        <div class="border border-white bg-white h-64 w-0 absolute">
+        <div class="border border-white bg-white left-96 h-64 w-0 absolute ">
     <div class="absolute top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white h-3 w-3 rounded-full"></div>
     <div class="absolute top-40 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white h-3 w-3 rounded-full"></div>
         </div>
 
 
         <div class="py-2">
-    <p class="text-pink-300 px-4">Sep 2019-Dec 2023</p>
-    <p class="text-yellow-200 px-4">Bachelor of Social Science in Advertising and Public Relations from the University of Cádiz.</p>
-    <p class="text-white px-4 py-2">This degree program about communication and media has a total of 240 ECTS.</p>
+    <p class="text-pink-300">Sep 2019-Dec 2023</p>
+    <p class="text-yellow-200">Bachelor of Social Science in Advertising and Public Relations from the University of Cádiz.</p>
+    <p class="text-white py-2">This degree program about communication and media has a total of 240 ECTS.</p>
         </div>
 
         <div class="py-[44px]">
-    <p class="text-pink-300 px-4">Sep 2019-Dec 2023</p>
-    <p class="text-yellow-200 px-4">Erasmus Exchange Program at the Aarhus University in Denmark</p>
-    <p class="text-white px-4 py-2">Focusing on Programming Languages.</p>
+    <p class="text-pink-300">Sep 2019-Dec 2023</p>
+    <p class="text-yellow-200">Erasmus Exchange Program at the Aarhus University in Denmark</p>
+    <p class="text-white py-2">Focusing on Programming Languages.</p>
         </div>
         <!-- Education -->
 
@@ -153,23 +155,23 @@
 
 <!-- Experience -->
 <div class="mt-60">
-    <div class="flex my-12 mr-20">
+    <div class="flex my-12 mr-20 left-1/2 transform -translate-x-[30px] -translate-y-1/2">
     <img src="/img/experience.png" alt="" class="w-8">
-    <h1 class="text-white text-bold text-3xl">Experience</h1>
+    <h1 class="text-white text-bold text-3xl px-2"><a name="experience">Experience</a></h1>
     </div>
 </div>
-<div class="border border-white bg-white h-80 w-0 absolute">
+<div class="border border-white bg-white left-96 h-80 w-0 absolute">
 <div class="absolute top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white h-3 w-3 rounded-full"></div>
 <div class="absolute top-56 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white h-3 w-3 rounded-full"></div>
 </div>
 
 
 <div class="py-2">
-<p class="text-pink-300 px-4">Sep 2022 - May 2023</p>
-<p class="text-yellow-200 px-4">Web Designer Wordpress - BORRADS.COM - Remote</p>
-<p class="text-white px-4 py-2">Planning, design and development of new projects to digitize companies. Contribute to the maintenance and updating of +30 websites.</p>
+<p class="text-pink-300">Sep 2022 - May 2023</p>
+<p class="text-yellow-200">Web Designer Wordpress - BORRADS.COM - Remote</p>
+<p class="text-white py-2">Planning, design and development of new projects to digitize companies. Contribute to the maintenance and updating of +30 websites.</p>
 </div>
-<div class="px-4 py-2">
+<div class="py-2">
 <div class="px-4 flex items-center border border-yellow bg-gray-800 rounded-full w-60 mb-1">
     <p class="flex justify-center text-white text-xl px-2.5">Referance Letter</p>
     <svg
@@ -190,9 +192,9 @@
 </div>
 
 <div class="py-[48px]">
-<p class="text-pink-300 px-4">Feb 2023-Jul 2023</p>
-<p class="text-yellow-200 px-4">Internship Frontend Developer - NDB Technology - Tallin, Estonia</p>
-<p class="text-white px-4 py-2">Develop and design projects strengthening skills in HTML, CSS, JavaScript and Figma. Work on projects acquiring different skills in analytics, SEO and various technologies.</p>
+<p class="text-pink-300">Feb 2023-Jul 2023</p>
+<p class="text-yellow-200">Internship Frontend Developer - NDB Technology - Tallin, Estonia</p>
+<p class="text-white">Develop and design projects strengthening skills in HTML, CSS, JavaScript and Figma. Work on projects acquiring different skills in analytics, SEO and various technologies.</p>
 </div>
 <!-- End Experience -->
 
@@ -200,7 +202,7 @@
 <div class="mt-60">
     <div class="flex my-12 mr-20">
     <img src="/img/koding.png" alt="" class="w-8">
-    <h1 class="text-white text-bold text-3xl">Project</h1>
+    <h1 class="text-white text-bold text-3xl"><a name="project">Project</a></h1>
     </div>
     </div>
      <div>
@@ -228,7 +230,7 @@
     <div class="py-4">
         <p class="text-white font-semibold text-lg">Developed an interactive web application using HTML, CSS and JavaScript that facilitates budget analysis and management. Integrated JavaScript for data manipulation and calculation of operations.</p>
     </div>
-    <div class="flex flex-col sm:flex-row border rounded-full bg-gray-800 w-32 px-4 items-center">
+    <div class="flex flex-col sm:flex-row border rounded-full bg-gray-800 w-32 px-4 gap-1 items-center">
         <img src="/img/github.png" alt="" class="w-8">   
        <p class="text-white">Github</p>
        </div>
